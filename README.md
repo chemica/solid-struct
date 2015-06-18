@@ -2,6 +2,7 @@
 
 A Ruby gem providing a Struct variant that allows initialisation with named parameters. 
 
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -17,6 +18,13 @@ And then execute:
 Or install it yourself as:
 
     $ gem install named-struct
+
+and require it in your Ruby code:
+
+````ruby
+require 'named_struct'
+````
+
 
 ## Usage
 

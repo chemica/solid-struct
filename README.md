@@ -28,15 +28,16 @@ require 'named_struct'
 
 ## Usage
 
-  Klass = NamedStruct.new(:param1, :param2, :param3)
-  instance = Klass.new(param1: 1, param2: "foo", param3: "bar")
-  instance.param1
-  #=> 1
-  instance.param2
-  #=> "foo"
-  instance.param3
-  #=> "bar"
-  
+```ruby
+Klass = NamedStruct.new(:param1, :param2, :param3)
+instance = Klass.new(param1: 1, param2: "foo", param3: "bar")
+instance.param1
+#=> 1
+instance.param2
+#=> "foo"
+instance.param3
+#=> "bar"
+```
 
 This allows for more readable code, especially when the struct definition is separated from the use. Named parameters intrinsically convey more meaning and reduce the need for comments.
 

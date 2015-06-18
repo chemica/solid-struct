@@ -20,7 +20,7 @@ Or install it yourself as:
 
 ## Usage
 
-  Klass = NamedStruct(:param1, :param2, :param3)
+  Klass = NamedStruct.new(:param1, :param2, :param3)
   instance = Klass.new(param1: 1, param2: "foo", param3: "bar")
   instance.param1
   #=> 1

@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in named-struct.gemspec
+# Specify your gem's dependencies in solid-struct.gemspec
 gemspec

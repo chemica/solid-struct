@@ -1,16 +1,16 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'named_struct/version'
+require 'solid_struct'
 
 Gem::Specification.new do |spec|
-  spec.name          = "named-struct"
-  spec.version       = NamedStruct::VERSION
+  spec.name          = "solid-struct"
+  spec.version       = SolidStruct::VERSION
   spec.authors       = ["Benjamin Dunkley"]
   spec.email         = ["ben@chemica.co.uk"]
-  spec.summary       = %q{Structs with named parameters for initialisation}
-  spec.description   = %q{NamedStruct is a Struct variant that allows the use of named parameters (via a hash) for initialisation}
-  spec.homepage      = "https://github.com/chemica/named-struct"
+  spec.summary       = %q{Structs with named parameters for initialisation and syntactic sugar}
+  spec.description   = %q{SolidStruct is a Struct variant that allows the use of named parameters (via a hash) for initialisation. Syntactic sugar is provided for simpler struct definitions.}
+  spec.homepage      = "https://github.com/chemica/solid-struct"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")

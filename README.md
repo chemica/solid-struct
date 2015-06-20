@@ -8,7 +8,7 @@ A Ruby gem providing a Struct variant that allows initialisation with named para
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'solid-struct'
+gem 'solid-struct', :require => 'solid_struct'
 ```
 
 And then execute:

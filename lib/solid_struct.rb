@@ -1,6 +1,6 @@
 # Allow structs to be initialised using a hash
 module SolidStruct
-  VERSION = "0.0.2"
+  VERSION = "0.1.0"
 
   class NamedStruct < Struct
     # Override the initialize to handle hashes of named parameters

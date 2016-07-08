@@ -8,7 +8,7 @@ A Ruby gem providing a Struct variant that allows initialisation with named para
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'solid-struct', :require => 'solid_struct'
+gem 'solid-struct'
 ```
 
 And then execute:
@@ -72,7 +72,7 @@ Or you can define and initialise in one simple step:
 
 
 ```ruby
-instance = SolidStruct.build(param1: 1, :param2: "foo", :param3: "bar")
+instance = SolidStruct.build(param1: 1, param2: "foo", param3: "bar")
 instance.param1
 #=> 1
 instance.param2
